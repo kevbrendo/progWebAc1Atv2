@@ -1,0 +1,14 @@
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button class="btn mt-2" [ngClass]="{'btn-secondary': showBanner, 'btn-info': !showBanner}" (click)="showBanner = !showBanner"> {{ showBanner ? "Esconder Banner" : "Mostrar Banner" }} </button>
+</div>
+
+<div class="container mt-4" *ngIf="showBanner">
+    <div class="banner bg-primary text-white rounded p-4 d-flex align-items-center justify-content-between">
+        <div>
+            <h2>GRANDE PROMOCAO!</h2>
+            <p>Tudo com 50% de desconto. Até durarem os estoques.</p>
+            <a href="#" class="btn btn-light mt-2">Compre Agora</a>
+        </div>
+    </div>
+</div>

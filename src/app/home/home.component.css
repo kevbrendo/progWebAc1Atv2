@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background: #007bff;
+    border-radius: 15px;
+  }
+  
+  .banner h2 {
+    font-size: 2rem;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+  }
+  
+  .banner-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
